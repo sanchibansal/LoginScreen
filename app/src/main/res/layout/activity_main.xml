@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20BF9F"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context="com.example.sakshi.loginscreen.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Email"
+       android:id="@+id/email"
+       android:padding="5dp"
+       android:background="@android:color/white"
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:hint="Password"
+       android:id="@+id/password"
+       android:padding="5dp"
+       android:password="true"
+       android:background="@android:color/white"
+       />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Login"
+       android:id="@+id/login"
+       android:layout_marginTop="20dp"
+       android:textColor="#20BF9F"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Not a member?Sign up now."
+      android:textColor="@android:color/white"
+       android:layout_marginTop="30dp"/>
+
+</LinearLayout>
